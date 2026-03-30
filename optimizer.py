@@ -156,7 +156,7 @@ def print_results(b_star, ratio, revenues, capacity, f1, f2, mu1, sigma1, mu2):
             diff = f"{pct:+.2f}%"
         print(f"  {name:<20} ${rev.mean():>13,.0f} ${rev.std():>11,.0f} {diff:>10}")
     print()
-    print(sep)
+
 
 
 
