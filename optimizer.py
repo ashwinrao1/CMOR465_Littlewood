@@ -6,7 +6,7 @@
 
 
 OVERVIEW
---------
+
 This program implements Littlewood's Rule for a single-leg
 two-fare-class revenue management problem.
 
@@ -66,7 +66,7 @@ def littlewood_booking_limit(f1, f2, mu1, sigma1, capacity):
     => b* = mu1 + sigma1 * z_{1 - f2/f1}
 
     Returns
-    -------
+    
     b_star : int   – seats protected for class 1 (booking limit for class 2 = C - b*)
     ratio  : float – f2 / f1  (critical ratio)
     """
